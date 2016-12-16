@@ -5,6 +5,5 @@ The server listens to port 8080.
 
 Start a docker container with 
 ```
-docker build -t debug-server .
-docker run -p 8080:8080 debug-server
+docker run -p 8080:8080 siweis/debug-server
 ```
